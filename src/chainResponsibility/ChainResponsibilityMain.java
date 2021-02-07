@@ -11,6 +11,7 @@ public class ChainResponsibilityMain {
         d2.setProximo(d3);
 
         var orcamento = new Orcamento(600.50);
+        
         var desconto = d1.desconta(orcamento);
         System.out.println(desconto);
 	}
